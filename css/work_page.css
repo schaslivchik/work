@@ -1,3 +1,22 @@
+.list-services {
+  padding: 0;
+  list-style-type: none;
+}
+.list-service-item:not(:last-child) {
+  margin-bottom: 3px;
+}
+.list-service-item {
+  position: relative;
+  padding-left: 2px;
+  display: flex;
+  align-items: center;
+}
+.btn-chevron-footer {
+  width: 7px;
+}
+
+
+
 .xloo-block-secondary-top {
   margin-top: 96px;
 }
