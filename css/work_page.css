@@ -1,0 +1,27 @@
+.xloo-block-secondary-top {
+  margin-top: 96px;
+}
+.case-block {
+  display: flex;
+  align-items: center;
+}
+.case-container {
+  padding: 0;
+}
+.case-block-text .case-text {
+  margin: 25px 0 30px;
+}
+.case-block-img {
+  width: 50%;
+}
+.case-block-text {
+  width: 50%;
+  padding: 0 20px;
+}
+.img-case {
+  display: block;
+  max-width: 100%;
+}
+.img-wxchat {
+  margin-bottom: -42px;
+}

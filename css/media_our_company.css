@@ -1,0 +1,244 @@
+
+@media (max-width: 1440px) {
+  .xloo-block-secondary .xloo-secondary-text {
+    line-height: 24px;
+  }
+  .xloo-block-secondary {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1200px) {
+  .xloo-secondary-text-dark {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .xloo-title-dark-text {
+    font-size: 28px;
+  }
+  .img-70plus-block img{
+    width: 280px;
+  }
+  .our-company-team {
+    margin-bottom: 34px;
+  }
+  .our-company-team:before {
+    width: 526px;
+  }
+  .card-body {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .xloo-title-block-secondary {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .map-block {
+    height: 350px;
+  }
+  .map-block:before {
+    transform: scale(0.7);
+    left: -140px;
+    top: -60px;
+  }
+  .map-item-canada {
+    top: 102px;
+    left: 62px;
+  }
+  .map-item-usa {
+    top: 155px;
+    left: 98px;
+  }
+  .map-item-europe {
+    top: 123px;
+    left: 291px;
+  }
+  .map-item-sa {
+    top: 247px;
+    left: 283px;
+  }
+  .map-item-asia {
+    left: 425px;
+    bottom: 76px;
+  }
+  .xloo-in-numbers-item {
+    width: 280px;
+  }
+  .title-xloo-in-numbers img {
+    width: 200px;
+  }
+  .title-xloo-in-numbers:before {
+    height: 180px;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-70plus-block {
+    display: none;
+  }
+  .expertise-expert-block {
+    margin-bottom: 30px;
+  }
+  .our-company-team:before {
+    width: 605px;
+  }
+  .our-company-team {
+    margin-bottom: 20px;
+  }
+  .common-mission-block {
+    position: relative;
+    background-color: #f4f5f8;
+    height: inherit;
+    padding: 30px 0;
+    margin-bottom: 80px;
+  }
+
+  .common-mission-block:before {
+    content: '';
+    position: absolute;
+    width: 780px;
+    height: calc(100% + 60px);
+    background-color: #f4f5f8;
+    z-index: -1;
+    top: 0;
+    left: -45px;
+    bottom: 0;
+    margin: auto;
+  }
+  .common-mission-block::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 175px;
+    background-image: url(../images/puzzle.png);
+    z-index: 2;
+    top: -34px;
+    right: -46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .title-common-mission {
+    margin-bottom: 15px;
+  }
+  .cta-content-title {
+    font-size: 28px;
+  }
+  .cta-content-subtitle {
+    font-size: 24px;
+  }
+  .work-and-share-block .xloo-title-dark-text br {
+    display: none;
+  }
+  .map-block:before {
+    left: -95px;
+  }
+  .map-item-usa {
+    left: 143px;
+  }
+  .map-item-canada {
+    left: 107px;
+  }
+  .map-item-europe {
+    left: 336px;
+  }
+  .map-item-sa {
+    left: 328px;
+  }
+  .map-item-asia {
+    left: 480px;
+  }
+  .wrap-blocks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .block-item {
+    width: 360px;
+    height: inherit;
+  }
+  .block-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .cta-content-believe:before {
+    right: -160px;
+    bottom: -80px;
+    transform: scale(0.8);
+  }
+  .block-item p{
+    margin: 30px 0 20px;
+  }
+  .wrap-blocks:before {
+    right: 110px;
+  }
+  .xloo-in-numbers .xloo-in-numbers-item:nth-child(4)  {
+    order: -2;
+    width: 100%;
+    margin: 0;
+  }
+  .xloo-in-numbers .xloo-in-numbers-item:nth-child(4), .xloo-in-numbers .xloo-in-numbers-item:nth-child(5), .xloo-in-numbers .xloo-in-numbers-item:nth-child(6) {
+    margin: inherit;
+  }
+  .title-xloo-in-numbers:before {
+    display: none;
+  }
+  .xloo-in-numbers .xloo-in-numbers-item {
+    margin: 25px 0;
+  }
+  .xloo-in-numbers-item {
+    width: 300px;
+  }
+  .cta-block-get-in-touch:before {
+    left: -178px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .xloo-block-secondary {
+    padding: 80px 0;
+  }
+  .our-company-team:before {
+    width: 427px;
+  }
+  .common-mission-block::after {
+    width: 126px;
+  }
+  .common-mission-block:before {
+    width: 600px;
+  }
+  .section-our-company::before {
+    right: -28px;
+    transform: scale(0.7);
+  }
+  .cta-content-title {
+    line-height: 38px;
+    text-align: center;
+    margin-top: -7px;
+  }
+  .map-block:before {
+    left: -190px;
+  }
+  .wrap-map-block {
+    margin-top: -8px;
+  }
+  .map-item-canada {
+    left: 17px;
+  }
+  .map-item-usa {
+    left: 43px;
+  }
+  .map-item-europe {
+    left: 244px;
+  }
+  .map-item-sa {
+    left: 235px;
+  }
+  .map-item-asia {
+    left: 383px;
+  }
+  .xloo-in-numbers-item {
+    width: 250px;
+  }
+  .cta-block-get-in-touch:before {
+    left: -260px;
+  }
+}
