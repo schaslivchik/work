@@ -59,21 +59,21 @@
   margin-bottom: 25px;
 }
 .case-platform-item {
-  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #93CB40;
-  height: 48px;
   border-radius: 100px;
-  padding: 0 25px;
-  color: #ffffff;
+  color: #212529;
+  font-weight: 600;
   margin-bottom: 10px;
 }
+.container-dark .case-platform-item {
+  color: #ffffff;
+}
 .container-case-platforms p:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 .case-platform-item img {
-  margin-right: 8px;
+  margin-right: 4px;
 }
 .case-name {
   color: #93CB40;
