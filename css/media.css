@@ -151,6 +151,15 @@ margin-bottom: 30px;
   margin-bottom: 11px;
   min-height: 64px;
 }
+
+/* work block*/
+.case-block-img .img-case-xl {
+  display: none;
+}
+.case-block-img .img-case-lg {
+  display: block;
+}
+/* work block end */
 }
 @media(max-width: 1440px) {
   .xloo-features-content-title,

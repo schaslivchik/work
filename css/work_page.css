@@ -15,27 +15,31 @@
   width: 7px;
 }
 
-
-
 .xloo-block-secondary-top {
   margin-top: 96px;
 }
 .case-block {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 .case-container {
-  padding: 0;
+  padding: 60px 0;
 }
 .case-block-text .case-text {
-  margin: 25px 0 30px;
+  margin: 20px 0 22px;
 }
 .case-block-img {
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .case-block-text {
   width: 50%;
   padding: 0 20px;
+  height: 100%;
 }
 .img-case {
   display: block;
@@ -43,4 +47,36 @@
 }
 .img-wxchat {
   margin-bottom: -42px;
+}
+.case-block-img img{
+  display: none;
+}
+.case-block-img .img-case-xl {
+  display: block;
+}
+.container-case-platforms {
+  display: flex;
+  margin-bottom: 35px;
+}
+.case-platform-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #93CB40;
+  height: 48px;
+  border-radius: 100px;
+  padding: 0 25px;
+  color: #ffffff;
+}
+.container-case-platforms p:not(:last-child) {
+  margin-right: 15px;
+}
+.case-platform-item img {
+  margin-right: 8px;
+}
+.case-name {
+  color: #93CB40;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
