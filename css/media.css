@@ -152,14 +152,6 @@ margin-bottom: 30px;
   min-height: 64px;
 }
 
-/* work block*/
-.case-block-img .img-case-xl {
-  display: none;
-}
-.case-block-img .img-case-lg {
-  display: block;
-}
-/* work block end */
 }
 @media(max-width: 1440px) {
   .xloo-features-content-title,
@@ -227,62 +219,7 @@ margin-bottom: 30px;
   }
   
 }
-/* @media (max-width: 1200px) {
-  .footer-contact-info-title {
-    margin: 0px 0 10px;
-  }
-  .block-steps-item-arrow-right {
-    margin-right: 90px;
-  }
-  .block-arrow.block-arrow-right {
-    right: -85px;
-  }
-  .block-steps-item-arrow-left {
-    margin-left: 90px;
-  }
-  .block-arrow {
-    width: 80px;
-    padding: 2px;
-  } 
-  .block-arrow.block-arrow-left {
-    left: -85px;
-  }
 
-  .footer-nav-item {
-    padding: 10px;
-  }
-  .footer-nav-item:hover:before {
-    width: calc(100% - 20px);
-  }
-  .wrap-pills-content {
-    flex-wrap: wrap;
-  }
-  .pills-left-part,
-  .pills-right-part {
-    width: 100%;
-  }
-  .pills-left-part {
-    order: 2;
-  }
-  .web-development-img img {
-    max-width: 100%;
-    margin: 0 auto 40px;
-  }
-  .pills-left-part-item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-  .xloo-features-content-title {
-    font-size: 21px;
-    margin-bottom: 5px;
-}
-.why-choose-us-item-title {
-  margin-bottom: 5px;
-}
-.why-choose-us-item-title h3 {
-  font-size: 21px;
-}
-
- } */
 @media (max-width: 1200px) {
   .xloo-features-img {
     height: 50px;
@@ -506,6 +443,13 @@ margin-bottom: 30px;
 .why-choose-us-item:nth-child(5), .why-choose-us-item:nth-child(4) {
   margin-bottom: 24px;
 }
+.footer-contact-services, .footer-contact-info-phone, .footer-contact-info-social, .footer-xloo-social {
+  text-align: left;
+}
+.footer-contact-info {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
  }
 
 @media (max-width: 768px) {
@@ -723,5 +667,14 @@ margin-bottom: 30px;
 }
 .why-choose-us-item-title {
   justify-content: center;
+}
+.footer-contact-info > div {
+  width: 100%;
+}
+.list-service-item {
+  justify-content: center;
+}
+.footer-contact-info-title {
+  text-align: center;
 }
 }
