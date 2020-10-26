@@ -61,10 +61,12 @@
 .case-platform-item {
   align-items: center;
   justify-content: center;
-  border-radius: 100px;
   color: #212529;
   font-weight: 600;
   margin-bottom: 10px;
+}
+.ico-apple {
+  margin-top: -6px;
 }
 .container-dark .case-platform-item {
   color: #ffffff;
