@@ -81,7 +81,17 @@
   font-weight: 600;
   margin-bottom: 10px;
 }
-
+.tm-ico {
+  position: relative;
+  display: inline;
+}
+.tm-ico:before {
+  content: 'TM';
+  position: absolute;
+  right: -20px;
+  top: 3px;
+  font-size: 12px;
+}
 /*media*/
 @media (max-width: 1600px) {
   .case-block-img .img-case-xl {
